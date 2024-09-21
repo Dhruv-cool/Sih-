@@ -1,0 +1,10 @@
+.desc_arrivals{
+    display: flex;
+    align-items: baseline;
+    gap: 83%;
+}
+.more_desc{
+    font-size:2vh ;
+    cursor: pointer;
+    
+}

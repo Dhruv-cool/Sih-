@@ -1,0 +1,20 @@
+.slick-prev, .slick-next {
+    background-color: black;  /* Change the background color to black */
+    color: white;             /* Change the arrow icon to white */
+          /* Make the arrows round */
+    width: 40px;              /* Set width for the arrow */
+    height: 40px;             /* Set height for the arrow */
+    z-index: 1;               /* Ensure they appear above the content */
+  }
+  .slick-prev:hover, .slick-next:hover {
+    background-color: #333; /* Darken the background color on hover */
+    color: #fff;            /* Ensure the arrow stays white */
+  }
+  .slick-prev {
+    top: 27vh;  /* Move the left arrow a bit to the left */
+  }
+  
+  .slick-next {
+    top: 27vh;
+    right: 0vh; /* Move the right arrow a bit to the right */
+  }

@@ -1,0 +1,7 @@
+.product_img_grid{
+    display: grid;
+    grid-template-columns: 61vh 61vh;
+    row-gap: 3vh;
+    column-gap: 3vh;
+    cursor: zoom-in;
+}

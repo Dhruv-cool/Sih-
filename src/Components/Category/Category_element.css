@@ -1,0 +1,26 @@
+.img_element_category{
+    width: 64vh;
+    height: 65vh;
+    cursor: pointer;
+}
+.category_name{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: -36vh;
+    text-decoration: none;
+    color: black;
+}
+.category_name_p{
+    width: 27vh;
+    /* border: 2px solid black; */
+    background-color: white;
+    /* margin: auto; */
+    border-radius: 1vh;
+    height: 7vh;
+    font-size: 26px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

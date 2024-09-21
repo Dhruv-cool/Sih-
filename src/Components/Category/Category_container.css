@@ -1,0 +1,14 @@
+.category_element_key{
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    
+    /* left: 0; */
+    display: flex;
+    font-size: 4vh;
+}

@@ -1,0 +1,13 @@
+.container_pages_App{
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.text_category_element_block{
+  margin: 9vh 5vh;
+}
+
+
+
+
