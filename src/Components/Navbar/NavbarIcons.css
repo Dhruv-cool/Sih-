@@ -9,4 +9,11 @@
 }
 .react_icons_navbar{
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
+.profile_icon {
+    position: relative;
+  }
+  
+  

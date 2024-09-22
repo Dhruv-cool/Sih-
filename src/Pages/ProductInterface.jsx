@@ -4,6 +4,7 @@ import img1 from '../Components/Photos/clothes_category.jpg'
 import ProductGrid from '../Components/ProductImagesGrid/ProductGrid';
 import ProductPage from '../Components/ProductImagesGrid/ProductPageDesc';
 import './ProductInterface.css'
+import BackButton from '../Components/BackButton';
 function ProductInterface() {
     const {Cid}=useParams();
     const items = [
@@ -18,12 +19,15 @@ function ProductInterface() {
     const vv=items.filter(q=> q.id=== parseInt(Cid))[0];
     // console.log(vv);
   return (
+    <div className='container_pages_App'>
+       <BackButton/>
         <div className="text_category_element_block  product_interface_grid">
         <ProductGrid 
            prod={vv}
          />
          <ProductPage/>
         </div>
+    </div>
     )
 }
 

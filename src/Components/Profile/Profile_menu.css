@@ -1,0 +1,48 @@
+.container_profile {
+    position: absolute;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 500;
+}
+
+.profile_menu {
+    position: absolute;
+    top: 30px; /* Adjust based on your layout */
+    right: 0;
+    background-color: black;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 19vw;
+    margin: 0vh -10vh;
+    height: 100vh;
+   color: white;
+   
+}
+
+.profile_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile_menu li {
+    padding: 19px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+
+.profile_menu li:hover {
+    background-color: #f0f0f0;
+}
+
+.container3_drawsliderbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 400;
+    
+}

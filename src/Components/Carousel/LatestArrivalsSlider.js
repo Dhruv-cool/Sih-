@@ -22,7 +22,8 @@ function LatestArrivalsSlider() {
         speed: 500,          // Transition speed
         slidesToShow: 4,     // Show one slide at a time
         slidesToScroll: 1,   // Scroll one slide at a time
-        arrows: true,        // Enable prev/next arrows
+        arrows: true,
+                // Enable prev/next arrows
       };
   return (
     <>

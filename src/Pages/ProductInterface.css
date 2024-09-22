@@ -1,4 +1,7 @@
 .product_interface_grid{
     display: flex;
     flex-direction: row;
+    margin: 0vh 7vh;
+    padding: 7vh 0vh;
+    
 }

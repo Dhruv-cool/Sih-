@@ -1,0 +1,18 @@
+.buy_now{
+    display: flex;
+    gap: 8vh;
+    /* margin: 2vh 11vh; */
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+}
+.button_buy{
+    display: block;
+    width: 36vh;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius:31vh ;
+}

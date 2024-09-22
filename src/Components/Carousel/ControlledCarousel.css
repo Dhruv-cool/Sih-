@@ -1,4 +1,4 @@
-
-.carousel_slide{
-  height: 57vh;
+.carousel_custom{
+  z-index: -1;
+  cursor: pointer;
 }

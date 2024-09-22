@@ -23,7 +23,7 @@ function ControlledCarousel() {
   };
   
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect} interval={1000} >
+    <Carousel activeIndex={index} onSelect={handleSelect} interval={10000} className='carousel_custom' >
         {
           lists_front.map((item,idx)=>(
             

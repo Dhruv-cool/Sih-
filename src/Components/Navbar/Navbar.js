@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import NavbarIcons from './NavbarIcons'
+import Searchbar from './Searchbar/Searchbar'
 function Navbar() {
   return (
     <>
@@ -12,6 +13,7 @@ function Navbar() {
             </Link>
             <a href="#" className='home_about'>About</a>
           </div>
+          <Searchbar/>
           <NavbarIcons/>
     </div>
     </>
